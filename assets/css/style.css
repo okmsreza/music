@@ -255,6 +255,7 @@
 	background: url('../../assets/images/bg/testi.png') no-repeat;
 	background-size: cover;
 	background-position: 100%;
+	padding:100px 0;
 }
 	.review{
 		display: flex;
@@ -296,7 +297,9 @@
 	}
 
 	/* === 9. Discover Section CSS === */
-
+	.discover{
+		background-color: #020306;
+	}
 	.heading-section {
 	display: block;
 	margin: 0 auto;
@@ -305,4 +308,28 @@
 }
 	.footer-image{
 		padding-top: 75px;
+	}
+
+	/* === 10. Footer Section CSS === */
+	footer {
+	background-color: #020306;
+	padding-top: 80px;
+}
+	.footer-content {
+	border-top: 1px solid #0c1624;
+	padding: 0;
+	padding-top: 10px;
+}
+	.quick-link li{
+	list-style: none;
+	display: inline-block;
+	margin-right:10px;
+	}
+	.quick-link li a {
+		color: #14396a;
+		font-weight: 500;
+	}
+	.copyright p{
+		text-align: right;
+		color: #14396a
 	}
