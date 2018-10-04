@@ -9,16 +9,14 @@
 	=========== Index =========
 	1. Global CSS
 	2. Header Section
-	3. Hero Section
-	4. About Us Section
-	5. Practice Area Section
-	6. Lawyers Section
-	7. Testimonial
-	8. Publications Section
-	9. FAQ Section
-	10. Contact Us Section
-	11. Footer Section CSS
-	12. Go Top Css
+	3. Top Section CSS  
+	4. Mini Slider CSS 
+	5. Mini Slider CSS 
+	6. Feature CSS 
+	7. Hero Feature CSS 
+	8. Testimonial CSS 
+	9. Discover Section CSS 
+	10. Footer Section CSS 
 	============================
 	*/
 
@@ -318,7 +316,7 @@
 	.footer-content {
 	border-top: 1px solid #0c1624;
 	padding: 0;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 	.quick-link li{
 	list-style: none;
@@ -333,3 +331,214 @@
 		text-align: right;
 		color: #14396a
 	}
+
+
+
+	/* 
+
+	==============================
+			Responsive CSS
+	==============================
+
+	*/
+@media screen and (max-width: 1199px){
+.hero-feature,.feature {
+	background: none;
+}
+
+}
+	@media screen and (max-width: 767px){
+		h1 {
+	font-size: 26px;
+}
+h2 {
+	text-align: center;
+	font-size: 19px;
+}
+h4 {
+	font-size: 15px;
+	text-align: center;
+}
+p {
+
+	text-align: center;
+}
+
+.navbar-toggler .fa{
+	color: #2A5EA4;
+}
+.offset-4,.offset-6{
+	margin-left: 0;
+}
+.overlay {
+	padding: 65px 0;
+}
+.hero-feature .overlay{
+	padding: 30px 0;
+}
+.theme-btn {
+	text-align: center;
+	display: block;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	float: none;
+}
+.last-slide img {
+	float: none;
+}
+.logo img {
+	height: 40px;
+}
+.top-heading .top-content {
+	padding-top: 0;
+}
+.mini-slider {
+	padding-top: 15px;
+}
+.mini-slider .slider-content .col-md-4{
+	padding: 15px;
+	}
+	.headphone {
+	margin-top: 0;
+	padding-bottom: 0;
+}
+.headphone-content {
+	padding-top: 0;
+}
+.headphone,.hero-feature,.feature {
+	background: none;
+}
+.testimonial {
+	padding: 40px 0;
+}
+.review {
+
+    display: block;
+
+}
+.author {
+	display: block;
+}
+.author-img {
+	width: auto;
+}
+.author-info h6 span {
+	display: block;
+	text-align: center;
+	margin: 10px 0;
+}
+.author-info h6 {
+	text-align: center;
+}
+.footer-image {
+	padding-top: 35px;
+}
+footer {
+	padding-top: 15px;
+}
+.copyright{
+	padding-top: 10px;
+}
+.quick-link, .copyright p{
+	text-align: center;
+}
+
+}
+
+	@media screen and (max-width: 500px){
+		h1 {
+	font-size: 26px;
+}
+h2 {
+	text-align: center;
+	font-size: 19px;
+}
+h4 {
+	font-size: 15px;
+	text-align: center;
+}
+p {
+
+	text-align: center;
+}
+.offset-4,.offset-6{
+	margin-left: 0;
+}
+.overlay {
+	padding: 65px 0;
+}
+.hero-feature .overlay{
+	padding: 30px 0;
+}
+.theme-btn {
+	text-align: center;
+	display: block;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	float: none;
+}
+.last-slide img {
+	float: none;
+}
+.logo img {
+	height: 40px;
+}
+.top-heading .top-content {
+	padding-top: 0;
+}
+.mini-slider {
+	padding-top: 15px;
+}
+.mini-slider .slider-content .col-md-4{
+	padding: 15px;
+	}
+	.headphone {
+	margin-top: 0;
+	padding-bottom: 0;
+}
+.headphone-content {
+	padding-top: 0;
+}
+.headphone,.hero-feature,.feature {
+	background: none;
+}
+.testimonial {
+	padding: 40px 0;
+}
+.review {
+
+    display: block;
+
+}
+.author {
+	display: block;
+}
+.author-img {
+	width: auto;
+}
+.author-info h6 span {
+	display: block;
+	text-align: center;
+	margin: 10px 0;
+}
+.author-info h6 {
+	text-align: center;
+}
+.footer-image {
+	padding-top: 35px;
+}
+footer {
+	padding-top: 15px;
+}
+.copyright{
+	padding-top: 10px;
+}
+.quick-link, .copyright p{
+	text-align: center;
+}
+
+}
