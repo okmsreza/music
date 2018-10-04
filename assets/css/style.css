@@ -250,6 +250,12 @@
 		padding-bottom: 30px;
 	}
 	/* === 8. Testimonial CSS === */
+
+	.testimonial {
+	background: url('../../assets/images/bg/testi.png') no-repeat;
+	background-size: cover;
+	background-position: 100%;
+}
 	.review{
 		display: flex;
 		justify-content: center;
@@ -290,3 +296,13 @@
 	}
 
 	/* === 9. Discover Section CSS === */
+
+	.heading-section {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 15%;
+}
+	.footer-image{
+		padding-top: 75px;
+	}
