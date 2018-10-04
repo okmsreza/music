@@ -1,0 +1,292 @@
+/*
+	======== Author Info =======
+	Author: Md. Salim Reza
+	Web: http://msreza.com
+	============================
+	*/
+
+/*
+	=========== Index =========
+	1. Global CSS
+	2. Header Section
+	3. Hero Section
+	4. About Us Section
+	5. Practice Area Section
+	6. Lawyers Section
+	7. Testimonial
+	8. Publications Section
+	9. FAQ Section
+	10. Contact Us Section
+	11. Footer Section CSS
+	12. Go Top Css
+	============================
+	*/
+
+
+	/* === 1. Global CSS === */ 
+
+
+	@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+	body{	
+		font-family: 'Montserrat', sans-serif;
+		font-size: 15px;
+		background-color: #0A2244;
+	}
+
+
+	h1{
+		font-size: 48px;
+		
+	}
+	
+	h2{
+		font-size: 32px;	
+		
+	}
+	h1,h2{
+		color: #fff;
+		font-weight: 600;
+		margin-bottom: 38px;
+	}
+	h1 span,h2 span{
+		color: #295BA0;
+		margin-right: 10px;
+	}
+	h3{
+		font-size: 22px;
+	}
+	h4 {
+		font-size: 20px;
+		line-height: 30px;
+		color: #fff;
+		margin-top: 25px;
+	}
+	h5{
+		font-size: 18px;
+	}
+	h6{
+		font-size: 16px
+	}
+	p {
+		font-size: 15px;
+		line-height: 35px;
+		color: #5F6F84;
+		font-weight: 500;
+	}
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+	li{
+		list-style: none;
+	}
+	a,a:hover{
+		text-decoration: none;
+		color: #111;
+	}
+	section{
+		padding: 50px 0px;
+	}
+	img{
+		max-width: 100%;
+	}
+	.img-center{
+		display: block;
+		margin: 0 auto;
+	}
+	.no-padding{
+		padding: 0;
+	}
+	
+
+	.theme-btn {
+		display: block;
+		padding: 15px 30px 15px 30px;
+		border-radius: 30px;
+		border: none;
+		outline: none;
+		border: 1px solid #13396B;
+		display: inline-block;
+		font-weight: 600;
+		color: #fff;
+		margin-top: 74px;
+	}
+
+	/* === Direction === */ 
+	.col-md-4,.col-md-6{
+		float: left;
+	}
+	/* === 2. Header CSS === */ 
+
+	header{
+		height: 75px;
+
+	}
+	.navbar {
+		padding-top: 57px;
+	}
+	.fixed-top {
+		position: fixed;
+		top: -40px;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		background-color: #0a2244;
+	}
+
+	.fixed-top .logo,#music{
+		visibility: visible !important;
+	}
+	
+	.logo img {
+		height: 57px;
+		display: inline-block;
+		margin-top: 15px;
+		position: relative;
+	}
+	.nav-item {
+		margin-right: 10px;
+		height: 50px;
+		-webkit-transition: 0.3s ease;
+		-moz-transition: 0.3s ease;
+		-o-transition: 0.3s ease;
+		transition: 0.3s ease;
+	}
+	.nav-item:hover {
+		border-bottom: 3px solid #E8BF5D;
+		-webkit-transition: 0.3s ease;
+		-moz-transition: 0.3s ease;
+		-o-transition: 0.3s ease;
+		transition: 0.3s ease;
+	}
+	.nav-item.active {
+		border-bottom: 3px solid #E8BF5D;
+	}
+	.nav-item .menu-item {
+		font-family: 'Open Sans', sans-serif;
+		display: block;
+		color: #fff;
+		padding: 15px 7px 8px 7px;
+		text-transform: uppercase;
+	}
+	
+	/* === 3. Top Section CSS === */ 
+	.top-heading{
+		position: relative;
+		overflow: hidden;
+	}
+
+	.top-heading .top-content {
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 182px;
+	}
+	
+	.top-heading .top-content h5{
+		color: #346EC2;
+	}
+	
+
+	/* === 4. Mini Slider CSS === */
+
+	.mini-slider {
+		padding-top: 190px;
+		background: url('../../assets/images/bg/wave.png') no-repeat;
+		background-size: auto;
+		background-position: center;
+		overflow: hidden;
+	}
+	.last-slide img{
+		float: right;
+
+	}
+	/* === 5. Mini Slider CSS === */
+	.headphone {
+		background: url('../../assets/images/bg/headphone.png') no-repeat;
+		background-size: auto;
+		margin-top: 110px;
+		padding-bottom: 150px;
+		overflow: hidden;
+	}
+	.headphone-content {
+		padding-top: 70px;
+	}
+	.headphone-content .theme-btn {
+		margin-top: 35px;
+	}
+
+	/* === 6. Feature CSS === */
+	.feature {
+		overflow: hidden;
+		position: relative;
+		background: url('../../assets/images/bg/feature.png') no-repeat;
+		background-position: center;
+		background-position: 55% 100%;
+		padding: 0;
+	}
+	.feature h2 {
+		text-align: center;
+		padding-bottom: 80px;
+	}
+	.feature-phone{
+		position: relative;
+	}
+	/* === 7. Hero Feature CSS === */
+	.hero-feature {
+		background: url('../../assets/images/other/feature.png');
+		background-repeat: no-repeat;
+		background-position: right;
+		padding: 0;
+
+	}
+	.overlay {
+		overflow: hidden;
+		background: rgba(29, 29, 29, 0.1);
+		padding: 250px 0;
+	}
+	.hero-item img {
+		padding-bottom: 30px;
+	}
+	/* === 8. Testimonial CSS === */
+	.review{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.text h4{
+		text-align: center;
+	}
+	.author {
+		display: flex;
+		align-items: center;
+		padding-top: 25px;
+		padding-bottom: 70px;
+	}
+	.author-img {
+		width: 40px;
+		text-align: center;
+	}
+	.author-info{
+		margin-left: 10px;
+	}
+
+	.author-info h6{
+		color: #213a61;
+	}
+	.author-info h6 span {
+		color: #66778e;
+		margin-right: 5px;
+	}
+	.carousel-indicators li{
+		height: 10px;
+		width: 10px;
+		border: 1px solid white;
+		border-radius: 100%;
+		background: transparent;
+		margin-bottom: -60px!important;
+	}
+
+	/* === 9. Discover Section CSS === */
