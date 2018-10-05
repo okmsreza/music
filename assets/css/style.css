@@ -112,6 +112,11 @@
 		color: #fff;
 		margin-top: 74px;
 	}
+	.theme-btn:hover{
+	background-color: #fff;
+	border: none;
+	color: #0a2244;
+	}
 
 	/* === Direction === */ 
 	.col-md-4,.col-md-6{
