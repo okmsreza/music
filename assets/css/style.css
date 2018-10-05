@@ -537,7 +537,8 @@
 			float: none;
 		}
 		.logo img {
-			height: 40px;
+			max-height: 40px;
+			margin-top: 0;
 		}
 		.top-heading .top-content {
 			padding-top: 0;
