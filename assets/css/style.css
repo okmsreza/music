@@ -140,7 +140,7 @@
 	}
 	
 	.logo img {
-		height: 57px;
+		max-height: 57px;
 		display: inline-block;
 		margin-top: 15px;
 		position: relative;
